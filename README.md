@@ -1,2 +1,2 @@
 # whether-system
-whethersite using Html, CSS, JavaScript ,node.js 
+whethersite using EJS, CSS, JavaScript ,node.js 
