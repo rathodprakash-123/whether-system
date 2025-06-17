@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient( #7cd676,#f9fafa);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 10%;
+  background: rgba(244, 242, 242, 0.4);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 500px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-weight: 600;
+  color: rgb(52, 51, 51);
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  font-size: medium;
+  font-weight:300 ;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-weight: 350;
+  font-size: medium;
+  width: 40%;
+  height: 25%;
+  background-color: #1d6331;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.box{
+  margin-top: 10%;
+  background: rgba(244, 242, 242, 0.4);
+  align-items: center;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#btn{
+  width: 30%;
+  height: 10%;
+}
+#btn a{
+  text-decoration: none;
+  color: #f9fafa;
+  font-size: medium;
+}
+.box p{
+  font-weight: 400;
+  color: rgb(52, 52, 52);
+}

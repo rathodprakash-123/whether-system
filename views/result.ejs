@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Info</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="box">
+    <% if (weather) { %>
+      <h1><%= weather.city %>, <%= weather.country %></h1>
+      <img src="https://openweathermap.org/img/wn/<%= weather.icon %>@2x.png" />
+      <p><strong>Temp:</strong> <%= weather.temp %>°C</p>
+      <p><strong>Description:</strong> <%= weather.description %></p>
+      <p><strong>Humidity:</strong> <%= weather.humidity %>%</p>
+      <p><strong>Wind Speed:</strong> <%= weather.wind %> m/s</p>
+      <p><strong>Local Time:</strong> <%= weather.localTime %></p>
+      <button id="btn"><a href="/">Search again</a></button>
+    <% } else { %>
+      <p><%= error %></p>
+    <button id="btn"><a href="/">Try another city</a></button>
+    <% } %>
+  </div>
+</body>
+</html>
