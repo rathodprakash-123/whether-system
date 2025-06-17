@@ -30,7 +30,7 @@ A simple Weather App built with **Node.js**, **Express**, and **EJS**, using the
 
 ## 🌐 Live Demo
 
-> Coming soon or deploy with [Render](https://render.com), [Vercel](https://vercel.com), or [Railway](https://railway.app)
+> Available at your primary URL https://whether-system.onrender.com
 
 ---
 
